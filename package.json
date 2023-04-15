@@ -1,7 +1,14 @@
 {
   "name": "miniature-eureka",
   "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.74.0"
+  },
   "dependencies": {
+    "aws-cdk-lib": "^2.74.0",
     "typescript": "^5.0.4"
   }
 }
