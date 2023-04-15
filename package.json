@@ -5,10 +5,12 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "aws-cdk": "^2.74.0"
+    "@types/prettier": "^2",
+    "aws-cdk": "^2.74.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.74.0",
-    "typescript": "^5.0.4"
+    "aws-cdk-lib": "^2.74.0"
   }
 }
