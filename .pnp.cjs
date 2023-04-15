@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/aws-lambda", "npm:8.10.114"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
@@ -111,6 +112,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-ad87447820.zip/node_modules/@tootallnate/once/",\
           "packageDependencies": [\
             ["@tootallnate/once", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/aws-lambda", [\
+        ["npm:8.10.114", {\
+          "packageLocation": "./.yarn/cache/@types-aws-lambda-npm-8.10.114-952a890edf-9657d06ac8.zip/node_modules/@types/aws-lambda/",\
+          "packageDependencies": [\
+            ["@types/aws-lambda", "npm:8.10.114"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -875,6 +885,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["miniature-eureka", "workspace:."],\
+            ["@types/aws-lambda", "npm:8.10.114"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
