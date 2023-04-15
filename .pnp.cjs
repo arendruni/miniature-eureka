@@ -31,6 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
+            ["cdk-iam-floyd", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0"],\
+            ["constructs", "npm:10.1.311"],\
             ["prettier", "npm:2.8.7"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
@@ -118,6 +120,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-prettier-npm-2.7.2-6b2e2f518f-b47d76a525.zip/node_modules/@types/prettier/",\
           "packageDependencies": [\
             ["@types/prettier", "npm:2.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@udondan/common-substrings", [\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/@udondan-common-substrings-npm-3.0.2-0fe19788ef-3fabd93458.zip/node_modules/@udondan/common-substrings/",\
+          "packageDependencies": [\
+            ["@udondan/common-substrings", "npm:3.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -262,7 +273,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@balena/dockerignore", "npm:1.0.2"],\
             ["@types/constructs", null],\
             ["case", "npm:1.6.3"],\
-            ["constructs", null],\
+            ["constructs", "npm:10.1.311"],\
             ["fs-extra", "npm:9.1.0"],\
             ["ignore", "npm:5.2.4"],\
             ["jsonschema", "npm:1.4.1"],\
@@ -343,6 +354,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["cdk-iam-floyd", [\
+        ["npm:0.507.0", {\
+          "packageLocation": "./.yarn/cache/cdk-iam-floyd-npm-0.507.0-070d04e6cb-596d01e3ef.zip/node_modules/cdk-iam-floyd/",\
+          "packageDependencies": [\
+            ["cdk-iam-floyd", "npm:0.507.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0", {\
+          "packageLocation": "./.yarn/__virtual__/cdk-iam-floyd-virtual-3373917619/0/cache/cdk-iam-floyd-npm-0.507.0-070d04e6cb-596d01e3ef.zip/node_modules/cdk-iam-floyd/",\
+          "packageDependencies": [\
+            ["cdk-iam-floyd", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0"],\
+            ["@types/aws-cdk-lib", null],\
+            ["@types/constructs", null],\
+            ["@udondan/common-substrings", "npm:3.0.2"],\
+            ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
+            ["constructs", "npm:10.1.311"],\
+            ["regex-parser", "npm:2.2.11"]\
+          ],\
+          "packagePeers": [\
+            "@types/aws-cdk-lib",\
+            "@types/constructs",\
+            "aws-cdk-lib",\
+            "constructs"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["chownr", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-c57cf9dd07.zip/node_modules/chownr/",\
@@ -403,6 +442,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/console-control-strings-npm-1.1.0-e3160e5275-8755d76787.zip/node_modules/console-control-strings/",\
           "packageDependencies": [\
             ["console-control-strings", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["constructs", [\
+        ["npm:10.1.311", {\
+          "packageLocation": "./.yarn/cache/constructs-npm-10.1.311-7ba427ab0b-5c5c461fcf.zip/node_modules/constructs/",\
+          "packageDependencies": [\
+            ["constructs", "npm:10.1.311"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -830,6 +878,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
+            ["cdk-iam-floyd", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0"],\
+            ["constructs", "npm:10.1.311"],\
             ["prettier", "npm:2.8.7"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
@@ -1099,6 +1149,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inherits", "npm:2.0.4"],\
             ["string_decoder", "npm:1.3.0"],\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["regex-parser", [\
+        ["npm:2.2.11", {\
+          "packageLocation": "./.yarn/cache/regex-parser-npm-2.2.11-946d73634f-78200331ec.zip/node_modules/regex-parser/",\
+          "packageDependencies": [\
+            ["regex-parser", "npm:2.2.11"]\
           ],\
           "linkType": "HARD"\
         }]\

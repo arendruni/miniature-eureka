@@ -74,6 +74,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@udondan/common-substrings@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@udondan/common-substrings@npm:3.0.2"
+  checksum: 3fabd93458de2b9d1d082cbc1df661ffc90731bb8f0247bc418d897c7639093fca2f167b7fc3ac2d4a5f7d72c5e1a4ed3c97932bd5b0e752a7ba686889bfe046
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -266,6 +273,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cdk-iam-floyd@npm:^0.507.0":
+  version: 0.507.0
+  resolution: "cdk-iam-floyd@npm:0.507.0"
+  dependencies:
+    "@udondan/common-substrings": ^3.0.2
+    regex-parser: ^2.2.11
+  peerDependencies:
+    aws-cdk-lib: ^2.0.0
+    constructs: ^10.0.0
+  checksum: 596d01e3ef1cdab7894d0bab7ac745b7d9b977544f694bb6cf1fa62c96fcbf418aaae1e688542816d105092c414da980ee9acbc1c7f5ed42ff42fabc8e441cab
+  languageName: node
+  linkType: hard
+
 "chownr@npm:^2.0.0":
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
@@ -316,6 +336,13 @@ __metadata:
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
   checksum: 8755d76787f94e6cf79ce4666f0c5519906d7f5b02d4b884cf41e11dcd759ed69c57da0670afd9236d229a46e0f9cf519db0cd829c6dca820bb5a5c3def584ed
+  languageName: node
+  linkType: hard
+
+"constructs@npm:^10.1.311":
+  version: 10.1.311
+  resolution: "constructs@npm:10.1.311"
+  checksum: 5c5c461fcf74085e16e1dedf067a7ced6d8e8447d2ee14f01aa2df97f468b8bcc0731a9c63c5bb87ce78e71c91a224f6040e20a7303c39490caec6ef30424b69
   languageName: node
   linkType: hard
 
@@ -686,6 +713,8 @@ __metadata:
     "@types/prettier": ^2
     aws-cdk: ^2.74.0
     aws-cdk-lib: ^2.74.0
+    cdk-iam-floyd: ^0.507.0
+    constructs: ^10.1.311
     prettier: ^2.8.7
     typescript: ^5.0.4
   languageName: unknown
@@ -925,6 +954,13 @@ __metadata:
     string_decoder: ^1.1.1
     util-deprecate: ^1.0.1
   checksum: bdcbe6c22e846b6af075e32cf8f4751c2576238c5043169a1c221c92ee2878458a816a4ea33f4c67623c0b6827c8a400409bfb3cf0bf3381392d0b1dfb52ac8d
+  languageName: node
+  linkType: hard
+
+"regex-parser@npm:^2.2.11":
+  version: 2.2.11
+  resolution: "regex-parser@npm:2.2.11"
+  checksum: 78200331ec0cc372302d287a4946c38681eb5fe435453fca572cb53cac0ba579e5eb3b9e25eac24c0c80a555fb3ea7a637814a35da1e9bc88e8819110ae5de24
   languageName: node
   linkType: hard
 
