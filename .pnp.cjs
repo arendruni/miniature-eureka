@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@aws-sdk/client-route-53", "npm:3.312.0"],\
             ["@aws-sdk/client-sns", "npm:3.312.0"],\
             ["@types/aws-lambda", "npm:8.10.114"],\
             ["@types/node", "npm:18.15.11"],\
@@ -137,6 +138,54 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@aws-sdk/abort-controller", "npm:3.310.0"],\
             ["@aws-sdk/types", "npm:3.310.0"],\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@aws-sdk/client-route-53", [\
+        ["npm:3.312.0", {\
+          "packageLocation": "./.yarn/cache/@aws-sdk-client-route-53-npm-3.312.0-535ffb9394-7ca2e6a2d9.zip/node_modules/@aws-sdk/client-route-53/",\
+          "packageDependencies": [\
+            ["@aws-sdk/client-route-53", "npm:3.312.0"],\
+            ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+            ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+            ["@aws-sdk/client-sts", "npm:3.312.0"],\
+            ["@aws-sdk/config-resolver", "npm:3.310.0"],\
+            ["@aws-sdk/credential-provider-node", "npm:3.310.0"],\
+            ["@aws-sdk/fetch-http-handler", "npm:3.310.0"],\
+            ["@aws-sdk/hash-node", "npm:3.310.0"],\
+            ["@aws-sdk/invalid-dependency", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-content-length", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-endpoint", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-host-header", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-logger", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-recursion-detection", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-retry", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-sdk-route53", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-serde", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-signing", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-stack", "npm:3.310.0"],\
+            ["@aws-sdk/middleware-user-agent", "npm:3.310.0"],\
+            ["@aws-sdk/node-config-provider", "npm:3.310.0"],\
+            ["@aws-sdk/node-http-handler", "npm:3.310.0"],\
+            ["@aws-sdk/protocol-http", "npm:3.310.0"],\
+            ["@aws-sdk/smithy-client", "npm:3.310.0"],\
+            ["@aws-sdk/types", "npm:3.310.0"],\
+            ["@aws-sdk/url-parser", "npm:3.310.0"],\
+            ["@aws-sdk/util-base64", "npm:3.310.0"],\
+            ["@aws-sdk/util-body-length-browser", "npm:3.310.0"],\
+            ["@aws-sdk/util-body-length-node", "npm:3.310.0"],\
+            ["@aws-sdk/util-defaults-mode-browser", "npm:3.310.0"],\
+            ["@aws-sdk/util-defaults-mode-node", "npm:3.310.0"],\
+            ["@aws-sdk/util-endpoints", "npm:3.310.0"],\
+            ["@aws-sdk/util-retry", "npm:3.310.0"],\
+            ["@aws-sdk/util-user-agent-browser", "npm:3.310.0"],\
+            ["@aws-sdk/util-user-agent-node", "virtual:7d95db647f4051e18ea3ed73dcf7c5a65d7310ba9db20b16f74cbdec87cfbfbd0b8084b8fe98234fbf3cc64540b5a16988c1020ad96cb6001b87ad9b73c70093#npm:3.310.0"],\
+            ["@aws-sdk/util-utf8", "npm:3.310.0"],\
+            ["@aws-sdk/util-waiter", "npm:3.310.0"],\
+            ["@aws-sdk/xml-builder", "npm:3.310.0"],\
+            ["fast-xml-parser", "npm:4.1.2"],\
             ["tslib", "npm:2.5.0"]\
           ],\
           "linkType": "HARD"\
@@ -555,6 +604,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@aws-sdk/middleware-sdk-route53", [\
+        ["npm:3.310.0", {\
+          "packageLocation": "./.yarn/cache/@aws-sdk-middleware-sdk-route53-npm-3.310.0-23f6a4657f-a26275728e.zip/node_modules/@aws-sdk/middleware-sdk-route53/",\
+          "packageDependencies": [\
+            ["@aws-sdk/middleware-sdk-route53", "npm:3.310.0"],\
+            ["@aws-sdk/types", "npm:3.310.0"],\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@aws-sdk/middleware-sdk-sts", [\
         ["npm:3.310.0", {\
           "packageLocation": "./.yarn/cache/@aws-sdk-middleware-sdk-sts-npm-3.310.0-c20d95dc00-80debd2f23.zip/node_modules/@aws-sdk/middleware-sdk-sts/",\
@@ -967,6 +1027,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@aws-sdk-util-utf8-browser-npm-3.259.0-343a1dba08-b6a1e580da.zip/node_modules/@aws-sdk/util-utf8-browser/",\
           "packageDependencies": [\
             ["@aws-sdk/util-utf8-browser", "npm:3.259.0"],\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@aws-sdk/util-waiter", [\
+        ["npm:3.310.0", {\
+          "packageLocation": "./.yarn/cache/@aws-sdk-util-waiter-npm-3.310.0-efeec016a1-51eb9fbb9a.zip/node_modules/@aws-sdk/util-waiter/",\
+          "packageDependencies": [\
+            ["@aws-sdk/util-waiter", "npm:3.310.0"],\
+            ["@aws-sdk/abort-controller", "npm:3.310.0"],\
+            ["@aws-sdk/types", "npm:3.310.0"],\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@aws-sdk/xml-builder", [\
+        ["npm:3.310.0", {\
+          "packageLocation": "./.yarn/cache/@aws-sdk-xml-builder-npm-3.310.0-5c3886db44-fc17fd8f68.zip/node_modules/@aws-sdk/xml-builder/",\
+          "packageDependencies": [\
+            ["@aws-sdk/xml-builder", "npm:3.310.0"],\
             ["tslib", "npm:2.5.0"]\
           ],\
           "linkType": "HARD"\
@@ -2047,6 +2129,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["miniature-eureka", "workspace:."],\
+            ["@aws-sdk/client-route-53", "npm:3.312.0"],\
             ["@aws-sdk/client-sns", "npm:3.312.0"],\
             ["@types/aws-lambda", "npm:8.10.114"],\
             ["@types/node", "npm:18.15.11"],\
