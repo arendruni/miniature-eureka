@@ -30,12 +30,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@aws-sdk/client-route-53", "npm:3.312.0"],\
             ["@types/aws-lambda", "npm:8.10.114"],\
+            ["@types/dotenv-flow", "npm:3.2.0"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
             ["cdk-iam-floyd", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0"],\
             ["constructs", "npm:10.1.311"],\
+            ["dotenv-flow", "npm:3.2.0"],\
             ["esbuild", "npm:0.17.16"],\
             ["prettier", "npm:2.8.7"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
@@ -1264,6 +1266,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/dotenv-flow", [\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/@types-dotenv-flow-npm-3.2.0-35e045c32a-ff11155349.zip/node_modules/@types/dotenv-flow/",\
+          "packageDependencies": [\
+            ["@types/dotenv-flow", "npm:3.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/node", [\
         ["npm:18.15.11", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.15.11-fd8ceaaffd-977b4ad047.zip/node_modules/@types/node/",\
@@ -1659,6 +1670,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/depd-npm-2.0.0-b6c51a4b43-abbe19c768.zip/node_modules/depd/",\
           "packageDependencies": [\
             ["depd", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:8.6.0", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-8.6.0-2ce3e9f7bb-38e902c80b.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:8.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-flow", [\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/dotenv-flow-npm-3.2.0-46fffd82c1-8e34ea8f5c.zip/node_modules/dotenv-flow/",\
+          "packageDependencies": [\
+            ["dotenv-flow", "npm:3.2.0"],\
+            ["dotenv", "npm:8.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2085,12 +2115,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["miniature-eureka", "workspace:."],\
             ["@aws-sdk/client-route-53", "npm:3.312.0"],\
             ["@types/aws-lambda", "npm:8.10.114"],\
+            ["@types/dotenv-flow", "npm:3.2.0"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["aws-cdk", "npm:2.74.0"],\
             ["aws-cdk-lib", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:2.74.0"],\
             ["cdk-iam-floyd", "virtual:0561bb032a5be2c7bfad12e802b679a57e5224b3007da9bf874385332e7895ff72b64ef7cc3b97c82f5010b5abd821d84371973e2772649f646b23722b0c3393#npm:0.507.0"],\
             ["constructs", "npm:10.1.311"],\
+            ["dotenv-flow", "npm:3.2.0"],\
             ["esbuild", "npm:0.17.16"],\
             ["prettier", "npm:2.8.7"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\

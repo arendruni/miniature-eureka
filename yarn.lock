@@ -1091,6 +1091,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/dotenv-flow@npm:^3":
+  version: 3.2.0
+  resolution: "@types/dotenv-flow@npm:3.2.0"
+  checksum: ff11155349578fe76f0b69556f3e22e13115b17a7684cef1dec9f5d7fdaa1bfc1848b1337e3d08093687a3e372cf1b4b0fd0c9900a2db62031a3ee02ffabe3e6
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^18.15.11":
   version: 18.15.11
   resolution: "@types/node@npm:18.15.11"
@@ -1407,6 +1414,22 @@ __metadata:
   version: 2.0.0
   resolution: "depd@npm:2.0.0"
   checksum: abbe19c768c97ee2eed6282d8ce3031126662252c58d711f646921c9623f9052e3e1906443066beec1095832f534e57c523b7333f8e7e0d93051ab6baef5ab3a
+  languageName: node
+  linkType: hard
+
+"dotenv-flow@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "dotenv-flow@npm:3.2.0"
+  dependencies:
+    dotenv: ^8.0.0
+  checksum: 8e34ea8f5cb216acb0f9cc602752dceef6e1c0b52c39045d6b92fadbefcbfecaf0cc868d3e115c9764860293d62d0bb31d46cfa41d29cb9fc7039797e20de03e
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^8.0.0":
+  version: 8.6.0
+  resolution: "dotenv@npm:8.6.0"
+  checksum: 38e902c80b0666ab59e9310a3d24ed237029a7ce34d976796349765ac96b8d769f6df19090f1f471b77a25ca391971efde8a1ea63bb83111bd8bec8e5cc9b2cd
   languageName: node
   linkType: hard
 
@@ -1838,12 +1861,14 @@ __metadata:
   dependencies:
     "@aws-sdk/client-route-53": ^3.312.0
     "@types/aws-lambda": ^8.10.114
+    "@types/dotenv-flow": ^3
     "@types/node": ^18.15.11
     "@types/prettier": ^2
     aws-cdk: ^2.74.0
     aws-cdk-lib: ^2.74.0
     cdk-iam-floyd: ^0.507.0
     constructs: ^10.1.311
+    dotenv-flow: ^3.2.0
     esbuild: ^0.17.16
     prettier: ^2.8.7
     typescript: ^5.0.4

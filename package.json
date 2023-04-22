@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.114",
+    "@types/dotenv-flow": "^3",
     "@types/node": "^18.15.11",
     "@types/prettier": "^2",
     "aws-cdk": "^2.74.0",
@@ -17,6 +18,7 @@
     "@aws-sdk/client-route-53": "^3.312.0",
     "aws-cdk-lib": "^2.74.0",
     "cdk-iam-floyd": "^0.507.0",
-    "constructs": "^10.1.311"
+    "constructs": "^10.1.311",
+    "dotenv-flow": "^3.2.0"
   }
 }
