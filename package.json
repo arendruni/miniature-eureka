@@ -1,24 +1,23 @@
 {
   "name": "miniature-eureka",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@3.8.7",
   "scripts": {
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.114",
-    "@types/dotenv-flow": "^3",
-    "@types/node": "^18.15.11",
-    "@types/prettier": "^2",
-    "aws-cdk": "^2.74.0",
-    "esbuild": "^0.17.16",
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.4"
+    "@types/aws-lambda": "^8.10.146",
+    "@types/dotenv-flow": "^3.3.3",
+    "@types/node": "^22.10.1",
+    "aws-cdk": "^2.172.0",
+    "esbuild": "^0.24.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@aws-sdk/client-route-53": "^3.312.0",
-    "aws-cdk-lib": "^2.74.0",
-    "cdk-iam-floyd": "^0.507.0",
-    "constructs": "^10.1.311",
-    "dotenv-flow": "^3.2.0"
+    "@aws-sdk/client-route-53": "^3.699.0",
+    "aws-cdk-lib": "^2.172.0",
+    "cdk-iam-floyd": "^0.658.0",
+    "constructs": "^10.4.2",
+    "dotenv-flow": "^3.3.0"
   }
 }

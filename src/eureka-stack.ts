@@ -12,7 +12,7 @@ import {
   aws_sns_subscriptions as snss,
 } from "aws-cdk-lib";
 import { FunctionUrlAuthType, Runtime } from "aws-cdk-lib/aws-lambda";
-import * as statement from "cdk-iam-floyd";
+import { Statement } from "cdk-iam-floyd";
 import { Construct } from "constructs";
 
 interface EurekaStackProps extends StackProps {
@@ -78,7 +78,7 @@ export class EurekaStack extends Stack {
 
     // give lambda permission to update r53 record
     fn.addToRolePolicy(
-      new statement.Route53()
+      new Statement.Route53()
         .toListResourceRecordSets()
         .toChangeResourceRecordSets()
         .onHostedzone(hostedZone.hostedZoneId),
@@ -123,7 +123,7 @@ export class EurekaStack extends Stack {
     // create user that will invoke the lambda
     const invokeUser = new iam.User(this, "lambda-invoke-user");
 
-    const invokeFnStatement = new statement.Lambda()
+    const invokeFnStatement = new Statement.Lambda()
       .allow()
       .toInvokeFunctionUrl()
       .ifFunctionUrlAuthType(FunctionUrlAuthType.AWS_IAM);
